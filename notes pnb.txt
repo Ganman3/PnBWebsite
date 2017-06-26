@@ -1,0 +1,44 @@
+PnB notes
+
+
+
+
+
+Color scheme
+Primary color:
+0772A1 225E79 024A68 3BA3D0 63AFD0 
+Secondary color A:
+1047A9 29477F 052A6E 4577D4 6890D4
+Secondary color B:
+FFA500 BF8D30 A66C00 FFBC40 FFCE73
+Complementary color:
+FF8700 BF7C30 A65800 FFA540 FFBD73
+
+Primary Color:
+024968	153D4E	012F44	2F8CB3	5396B3
+Secondary Color A:
+061571	192155	020C4A	3648B8	5866B8
+Secondary Color B:
+A57600	7C621F	6B4D00	D2A535	D2B15F
+Complementary Color:
+A55700	7C501F	6B3900	D28835	D29C5F
+
+Primary Color:
+028E9B	1E6D74	015C65	35C0CD	5EC4CD
+Secondary Color A:
+133CAC	2B4281	062270	476DD5	6D89D5
+Secondary Color B:
+FFAD00	BF9130	A67000	FFC140	FFD273
+Complementary Color:
+FF7800	BF7330	A64E00	FF9A40	FFB573
+
+
+
+Home- news posts, blog-style
+About- staff info, history, what we believe/goals, server list
+Features
+Donate and Vote
+Map
+Forum
+Rules
+Staff notes
