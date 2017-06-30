@@ -14,10 +14,13 @@
 </head>
 
 <body>
+<div class= "header">
 	<!--banner box holds logo-->
 	<div class = "banner_box">
-	<a href = "home.html"> <class="pnblogo">
+	<div class="pnblogo">
+	<!--<a href = "home.html"> <class="pnblogo">-->
 		<img src = "logopnb12.png" class = "logoimage">
+	</div>
 	</div>
 	<div class = "main_navigation">
 		<a href="home.html">Home</a>
@@ -26,34 +29,56 @@
 		<a href="#">Features</a>
 		<a href="forum.html">Forum</a>
 	</div>
-	<!--Box potentially for login form- for now just a placeholder-->
-	<span class = "introduction">
-		<hr class= "horizontal" />
-		<hr class= "vertical1" />
+</div>
+
+	
+
+	<div class= "left">
+
+		<span class = "introduction">
+			
+			<hr class= "horizontal" />
+			<hr class= "stylebars" />
+			
+			<p class= "intro_text">Welcome to the World of Raalekh: </p>
+			<p class= "intro_text2">Do you dare to seek what lurks beneath?</p>
+			<hr class = "stylebars" />
+		</span>
+		<div class = "slideshow_bob">
+			<div class = "mySlides fade">
+			<img src = "Slide-1.1.png" class="image" style="width: 100%">
+			</div>
+			<div class = "mySlides fade">
+			<img src = "Slide-2.1.png" class="image" style="width: 100%">
+			</div>
+			<div class = "mySlides fade">
+			<img src = "Slide-3.1.png" class="image" style="width: 100%">
+			</div>
+			<div class = "mySlides fade">
+			<img src = "Slide-4.1.png" class="image" style="width: 100%">
+			</div>
+
+		</div>
+		<div class="footer">
 		
-		<p class= "intro_text">Welcome to the World of Raalekh: </p>
-		<p class= "intro_text2">Do you dare to seek what lurks beneath?</p>
-		<hr class= "vertical2" />
-	</span>
-	<div class = "slideshow_bob">
-		<div class = "mySlides fade">
-		<img src = "Slide-1.1.png" style="width: 100%">
-		</div>
-		<div class = "mySlides fade">
-		<img src = "Slide-2.1.png" style="width: 100%">
-		</div>
-		<div class = "mySlides fade">
-		<img src = "Slide-3.1.png" style="width: 100%">
-		</div>
-		<div class = "mySlides fade">
-		<img src = "Slide-4.1.png" style="width: 100%">
-		</div>
-	
-	
-	
-	
-	
+		<p class= "footertext"> Pick n' Block ©2017 by Gannon Kendrick Benson</p>
 	</div>
+	</div>
+	
+	<div class= "right">
+		
+		<div class= "login_container">
+			
+		<p>Test</p></div>
+		<div class= "miscbox"></div>
+		<!--Box potentially for login form- for now just a placeholder-->
+	</div>
+
+
+	
+</div>	
+	
+	
 	
 <script>
 
@@ -69,7 +94,7 @@ showSlides();
 		slideIndex++;
 		if(slideIndex> slides.length) {slideIndex = 1}
 		slides[slideIndex-1].style.display = "block";  
-		setTimeout(showSlides, 2000);
+		setTimeout(showSlides, 3000);
 
 
 

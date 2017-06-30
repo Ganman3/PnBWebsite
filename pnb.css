@@ -6,62 +6,136 @@ body.modal-open {
 body.viewport-lg  {
     position: absolute; 
 }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+html, body, .template-content{
+ height:100%;
+ overflow:auto;
+}
 
 * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
-.mySlides {display:none}
+body {
+	font-family: Verdana,sans-serif;
+	margin-right: 0%;
+	margin-left: 0%;
+	width: 99%;
+	height: 50%;
+	background-color: white;
+}
+
+.mySlides {display:none;
+width: 100%;
+height:100%;
+}
 
 /*Main background*/
 /*For now, we're choosing a simple white background*/
-body {
-	background-color: white;
-	/*#5B927D;*/
-	width: 99%;
-	height: 99%;
+
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 40%;
+}
+
+.pnblogo {
+	height:100%;
+	
+}
+
+.logoimage {
+	height: 120%;
+	margin-bottom:-2%;
 }
 
 .banner_box{
 	background-color: #C88B6D;
-	width: 99.75%;
+	width: 100.5%;
+	height: 75%;
 	border: 8% solid #C6875D;
 	border-radius: 25%;
-	margin-bottom: 0.5%;
+	margin-bottom: 1%;
+	position: relative;
 	
 }
 
 .main_navigation{
 	overflow:hidden;
 	background-color:#E7B7A0;
-	width: 98.75%;
-	height: 7%;
-	
-	margin-bottom: 1%;
-	
+	width: 100.5%;
+	height: 25%;
+	margin-top: 1%;
+	position: relative;
+	vertical-align:middle;
 }
 
 .main_navigation a {
 	display: inline-block;
 	text-decoration: none;
 	color:#fff;
-	padding:1%;
-	font-size:180%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+	padding-top:1%;
+	padding-bottom:2%;
+	font-size:130%;
 	text-align:center;
 	font-family:impact;
+	vertical-align:middle;
 }
 
 .main_navigation a:hover {
 	background-color: #C99681;
 	color: #cbd8cb;
 }
+.right {
+	
+	margin-top: 0.5%;
+	float: right;
+	width: 31.5%;
+	height: 80%;
+	position:absolute;
+	margin-left: 67.8%;
+	
+}
+
+.login_container {
+	background-color: #cbd8cb;
+	height:50%;
+	width:100%;
+	border-style: solid;
+	border-color: #b4c1b4;
+	margin-top: 1%;
+	position:relative;
+	overflow:auto;
+	
+}
+
+.miscbox {
+	background-color: #E7B7A0;
+	height: 48%;
+	width: 100%;
+	margin-top: 2%;
+}
+
+.left {
+	float: left;
+	width: 67%;
+	height: 65%;
+	margin-right:1%;
+	margin-left:0.5%;
+	position: relative;
+	min-height:65%;
+}
 
 .introduction {
 	background-color: #E7B7A0;
-	width: 70%;
-	height: 8%;
+	width: 100%;
+	height: 50%;
 	float: left;
-	position: relative;
+	position:relative;
 	box-shadow: 2px 2px 2px #A67000;
 	margin-bottom: 1%;
+	margin-top: 1%;
 	
 }
 
@@ -69,37 +143,72 @@ hr.horizontal {
 	width: 100%;
 	height: 0px;
 	border-color: brown;
+	position:absolute;
+	margin-bottom: 1%;
+}
+
+hr.stylebars {
+	width: 100%;
+	height: 0px;
+	position: relative;
+	margin-bottom: 1%;
 }
 
 
 
 .intro_text {
 	color: #fff;
-	font-size: 150%;
+	font-size: 3vw;
 	margin-left: 2%;
 	text-align: center;
 	font-weight: bold;
 	font-family: helvetica;
-	
+	position:relative;
+	overflow: hidden;
+	white-space: nowrap;
 	
 }
 
 .intro_text2 {
 	color: #cbd8cb;
-	font-size:130%;
+	font-size:3vw;
 	text-align: center;
 	font-weight: bold;
 	font-family: helvetica;
 	margin-top: -1%;
 	margin-left: 2%;
+	margin-bottom: 3%;
+	position:relative;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .slideshow_bob {
-	width: 70%;
+	width: 100%;
 	position: relative;
+	margin-left: 0.5%;
+	height: 100%;
+	
 	
 }
 
+.image {
+	width:50%;
+	height:100%;
+	
+	
+}
+
+.footer {
+	width: 100%;
+	margin-left: 1%;
+	color: brown;
+	position:relative;
+}
+
+.footertext {
+	font-size:1.1vw;
+}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
