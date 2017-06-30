@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<link rel = "stylesheet" type="text/css" href= "pnb.css">
+<link type="text/javascript" href= "pnb.js">
+<meta charset="utf-8">
+
+
+<head>
+
+
+
+</head>
+
+<body>
+	<!--banner box holds logo-->
+	<div class = "banner_box">
+	<a href = "home.html"> <class="pnblogo">
+		<img src = "logopnb12.png" class = "logoimage">
+	</div>
+	<div class = "main_navigation">
+		<a href="home.html">Home</a>
+		<a href="news.html">News</a>
+		<a href="#">About</a>
+		<a href="#">Features</a>
+		<a href="forum.html">Forum</a>
+	</div>
+	<!--Box potentially for login form- for now just a placeholder-->
+	<span class = "introduction">
+		<hr class= "horizontal" />
+		<hr class= "vertical1" />
+		
+		<p class= "intro_text">Welcome to the World of Raalekh: </p>
+		<p class= "intro_text2">Do you dare to seek what lurks beneath?</p>
+		<hr class= "vertical2" />
+	</span>
+	<div class = "slideshow_bob">
+		<div class = "mySlides fade">
+		<img src = "Slide-1.1.png" style="width: 100%">
+		</div>
+		<div class = "mySlides fade">
+		<img src = "Slide-2.1.png" style="width: 100%">
+		</div>
+		<div class = "mySlides fade">
+		<img src = "Slide-3.1.png" style="width: 100%">
+		</div>
+		<div class = "mySlides fade">
+		<img src = "Slide-4.1.png" style="width: 100%">
+		</div>
+	
+	
+	
+	
+	
+	</div>
+	
+<script>
+
+var slideIndex=0;
+showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		for(i=0;i<slides.length;i++) {
+			slides[i].style.display="none";
+		}
+		slideIndex++;
+		if(slideIndex> slides.length) {slideIndex = 1}
+		slides[slideIndex-1].style.display = "block";  
+		setTimeout(showSlides, 2000);
+
+
+
+	}
+</script>
+		
+
+
+
+</body>
+</html>
