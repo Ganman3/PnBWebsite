@@ -3,7 +3,7 @@
 <html lang="en">
 
 <link rel = "stylesheet" type="text/css" href= "pnb.css">
-<link type="text/javascript" href= "pnb.js">
+<!--<link type="text/javascript" href= "pnb.js"> "Comment: Not yet necessary here"-->
 <meta charset="utf-8">
 
 
@@ -18,8 +18,7 @@
 	<!--banner box holds logo-->
 	<div class = "banner_box">
 	<div class="pnblogo">
-	<!--<a href = "home.html"> <class="pnblogo">-->
-		<img src = "logopnb12.png" class = "logoimage">
+		<a href= "home.html"><img src = "../Images/logopnb12.png" class = "logoimage"></a>
 	</div>
 	</div>
 	<div class = "main_navigation">
@@ -32,29 +31,32 @@
 </div>
 
 	
-
+	<!--This holds the data for the left column, to be separated. We will probably move to a table format for a more responsive layout.-->
 	<div class= "left">
-
+		<!--The introduction holds the developing Raalekh logo, which is one of the centerpieces of the main page.-->
 		<span class = "introduction">
 			
-			<img src = "Raalekhlogo5.3.png" class="raalekhlogo">
+			<img src = "../Images/Raalekhlogo5.3.png" class="raalekhlogo">
 			
 		</span>
+		<!--Slideshow div- holds images showing off various parts of the adventure server.-->
 		<div class = "slideshow_bob">
-			<div class = "mySlides fade">
-			<img src = "Slide-1.1.png" class="image" style="width: 100%">
+			<div class = "serverImages fade">
+			<img src = "../Images/Slide-1.1.png" class="image" style="width: 100%">
 			</div>
-			<div class = "mySlides fade">
-			<img src = "Slide-2.1.png" class="image" style="width: 100%">
+			<div class = "serverImages fade">
+			<img src = "../Images/Slide-2.1.png" class="image" style="width: 100%">
 			</div>
-			<div class = "mySlides fade">
-			<img src = "Slide-3.1.png" class="image" style="width: 100%">
+			<div class = "serverImages fade">
+			<img src = "../Images/Slide-3.1.png" class="image" style="width: 100%">
 			</div>
-			<div class = "mySlides fade">
-			<img src = "Slide-4.1.png" class="image" style="width: 100%">
+			<div class = "serverImages fade">
+			<img src = "../Images/Slide-4.1.png" class="image" style="width: 100%">
 			</div>
 
 		</div>
+		<!--Copyright and website development info. This does not currently work as intended, but will probably work better with a table layout- 
+		left and right floating divs cause some functionality problems with each other and with elements below them.-->
 		<div class="footer">
 		<hr class="footerline">
 		
@@ -64,10 +66,10 @@
 	</div>
 	
 	
-	
+	<!--The right side of the page- currrently, does not function without absolute position property.-->
 	<div class= "right">
 	
-		
+		<!--Main login form-->
 		<div class= "login_container">
 		
 			
@@ -83,11 +85,6 @@
 		<hr />
 		<p class="registrationnote">Or, if you don't have an account, create one <a href="register.html"> here</a>.</p>
 		<hr />
-		
-		
-		
-		
-		
 		</fieldset>
 		
 		
@@ -105,27 +102,26 @@
 	
 <script>
 
-var slideIndex=0;
-showSlides();
 
-	function showSlides() {
+/*Displays slideshow on main page, cycling between world images captured through Optifine*/
+/*I would like to rewrite and customize this later on- right now, it's just borrowed code.*/
+var slideIndex=0;
+mainSlides();
+
+	function mainSlides() {
 		var i;
-		var slides = document.getElementsByClassName("mySlides");
+		var slides = document.getElementsByClassName("serverImages");
 		for(i=0;i<slides.length;i++) {
 			slides[i].style.display="none";
 		}
 		slideIndex++;
 		if(slideIndex> slides.length) {slideIndex = 1}
 		slides[slideIndex-1].style.display = "block";  
-		setTimeout(showSlides, 3000);
+		setTimeout(mainSlides, 3000);
 
 
 
 	}
 </script>
-		
-
-
-
 </body>
 </html>

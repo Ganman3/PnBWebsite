@@ -1,4 +1,4 @@
-/*Compatibility*/
+/*Compatibility- ensures better responsiveness in most browsers*/
 body.modal-open {
     overflow-x: hidden;
 }
@@ -22,15 +22,11 @@ body {
 	height: 50%;
 	background-color: #E7B7A0;
 }
-
-.mySlides {display:none;
+/*For slideshow on home page*/
+.serverImages {display:none; /*Home page only*/
 width: 100%;
 height:100%;
 }
-
-/*Main background*/
-/*For now, we're choosing a simple white background*/
-
 
 .header{
 	position: relative;
@@ -38,15 +34,14 @@ height:100%;
 	height: 40%;
 }
 
-.pnblogo {
-	height:100%;
-	
-}
+/*Main server logo at top of all pages*/
 
 .logoimage {
 	height: 120%;
 	margin-bottom:-2%;
 }
+
+/*Simple brown-ish banner at top of all pages*/
 
 .banner_box{
 	background-color: #C88B6D;
@@ -59,10 +54,12 @@ height:100%;
 	
 }
 
+/*Central nav bar*/
+
 .main_navigation{
 	overflow:hidden;
 	background-color:#E7B7A0;
-	background-image: url("menuplank4.png");
+	background-image: url("../Images/menuplank4.png");
 	width: 100.5%;
 	height: 25%;
 	margin-top: 1%;
@@ -89,16 +86,21 @@ height:100%;
 	/*background-color: #C99681;*/
 	color: #cbd8cb;
 }
+
+/*Right column- to be optimised later*/
+/*###########HOME#############*/
 .right {
 	
 	margin-top: 2%;
 	float: right;
 	width: 31.5%;
 	height: 80%;
-	position:absolute;
+	position:absolute; /*This is necessary to not break the layout for now, but it has problems.*/
 	margin-left: 67.8%;
 	
 }
+
+/*Logs players into website*/
 
 .login_container {
 	background-color: #7f6f47;
@@ -113,10 +115,13 @@ height:100%;
 	
 }
 
+/*Formatting lines in login container*/
+
 .login_container hr {
 	border-color: #e2aa8e;
 }
 
+/*Offers option to register if no account*/
 .registrationnote {
 	color: white;
 	text-align: center;
@@ -142,6 +147,7 @@ height:100%;
 	color: white;
 	font-size: 1.2vw;
 }
+/*Text at top of login container prompting login*/
 
 .Loginwelcome {
 	font-size: 1.5vw;
@@ -149,6 +155,8 @@ height:100%;
 	color: white;
 	text-align: center;
 }
+
+/*Submit button*/
 
 .mainloginbtn {
 	display: block;
@@ -164,6 +172,8 @@ height:100%;
 	margin-top: 2%;
 }
 
+/*Left column of home page*/
+
 .left {
 	float: left;
 	width: 67%;
@@ -173,6 +183,8 @@ height:100%;
 	position: relative;
 	min-height:65%;
 }
+
+/*Logo and div at top of home page*/
 
 .introduction {
 	width: 100%;
@@ -205,34 +217,7 @@ hr.stylebars {
 }
 
 
-
-.intro_text {
-	color: #fff;
-	font-size: 3vw;
-	margin-left: 2%;
-	text-align: center;
-	font-weight: bold;
-	font-family: helvetica;
-	position:relative;
-	overflow: hidden;
-	white-space: nowrap;
-	
-}
-
-.intro_text2 {
-	color: #cbd8cb;
-	font-size:3vw;
-	text-align: center;
-	font-weight: bold;
-	font-family: helvetica;
-	margin-top: -1%;
-	margin-left: 2%;
-	margin-bottom: 3%;
-	position:relative;
-	overflow: hidden;
-	white-space: nowrap;
-}
-
+/*Main slideshow on home page- script needs customization and rewrite for sake of originality*/
 .slideshow_bob {
 	width: 100%;
 	position: relative;
@@ -248,23 +233,7 @@ hr.stylebars {
 	
 	
 }
-
-.footer {
-	width: 100%;
-	margin-left: 1%;
-	color: green;
-	position:relative;
-	font-weight: bold;
-}
-
-.footerline {
-	border-color: white;
-	width: 100%;
-}
-
-.footertext {
-	font-size:1.1vw;
-}
+/*Currently goes to main slide show on home page- more path info will be needed once this starts getting more complex.*/
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -285,5 +254,26 @@ hr.stylebars {
 .active {
   background-color: #717171;
 }
+
+/*Copyright and design info- currently functional, but by no means optimal*/
+
+.footer {
+	width: 100%;
+	margin-left: 1%;
+	color: green;
+	position:relative;
+	font-weight: bold;
+}
+
+.footerline {
+	border-color: white;
+	width: 100%;
+}
+
+.footertext {
+	font-size:1.1vw;
+}
+
+
 
 }
