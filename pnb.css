@@ -252,8 +252,14 @@ hr.stylebars {
 .footer {
 	width: 100%;
 	margin-left: 1%;
-	color: brown;
+	color: green;
 	position:relative;
+	font-weight: bold;
+}
+
+.footerline {
+	border-color: white;
+	width: 100%;
 }
 
 .footertext {
@@ -278,4 +284,6 @@ hr.stylebars {
 
 .active {
   background-color: #717171;
+}
+
 }
