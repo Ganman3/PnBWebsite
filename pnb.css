@@ -76,7 +76,7 @@ height:100%;
 	padding-right:1.5%;
 	padding-top:1%;
 	padding-bottom:2%;
-	font-size:130%;
+	font-size:2vw;
 	text-align:center;
 	font-family:impact;
 	vertical-align:middle;
@@ -91,7 +91,7 @@ height:100%;
 /*###########HOME#############*/
 .right {
 	
-	margin-top: 2%;
+	margin-top: 1%;
 	float: right;
 	width: 31.5%;
 	height: 80%;
@@ -104,11 +104,11 @@ height:100%;
 
 .login_container {
 	background-color: #7f6f47;
-	height:50%;
+	height:51%;
 	width:100%;
 	border-style: solid;
 	border-color: #C88B6D;
-	margin-top: 1%;
+	margin-top: 6%;
 	position:relative;
 	overflow:hidden;
 	
@@ -150,7 +150,7 @@ height:100%;
 /*Text at top of login container prompting login*/
 
 .Loginwelcome {
-	font-size: 1.5vw;
+	font-size: 1.3vw;
 	font-family: helvetica;
 	color: white;
 	text-align: center;
@@ -170,14 +170,43 @@ height:100%;
 	height: 48%;
 	width: 100%;
 	margin-top: 2%;
+	padding: 1%;
+	border-radius: 3%;
+}
+
+.miscbox hr {
+	border-color: #e2aa8e;
 }
 
 /*Left column of home page*/
 
+.ServerConstr {
+	color: white;
+	margin-left: 3%;
+	font-size: 1.4vw;
+	text-align: center;
+}
+
+.ConstrNotice {
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1.2vw;
+	
+}
+
+.KBtn {
+	margin-top: 5%;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	width: 92%;
+}
+
 .left {
 	float: left;
 	width: 67%;
-	height: 65%;
+	height: 48%;
 	margin-right:1%;
 	margin-left:0.5%;
 	position: relative;
@@ -274,6 +303,90 @@ hr.stylebars {
 	font-size:1.1vw;
 }
 
+/*###########NEWS#############*/
 
+.NewsBody {
+	width: 100.5%;
+}
+
+.ServerStatusBox {
+	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	
+}
+.ServerStatus {
+	margin-left: 40%;
+	margin-right: 40%;
+	width:20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.news {
+	background-color: #cbd8cb;
+	display: inline-block;
+	width: 100%;
+	border: solid 1px;
+	border-color: green;
+	margin-top: -0.5%;
+}
+
+
+.CentralNews {
+	color:#7f6f47;
+	text-align: center;
+	font-family: impact;
+	font-size:4.3vw;
+	background-color: white;
+	border-radius: 50%;
+	padding: 3%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.news1 hr{
+	border-color: #dae5da;
+	width:95%;
+	margin:auto;
+}
+
+.NewsTitle {
+	margin-left: 2%;
+	color: green;
+	font-size: 2vw;
+}
+
+.BottomNewsLine {
+	margin-bottom: 0%;
+	border-color: #dae5da;
+	width:95%;
+	margin:auto;
+}
+
+.TopNewsLine {
+	border-color: #dae5da;
+	width:95%;
+	margin-top: 10%;
+}
+
+.NewsImage {
+	width: 30%;
+	float: right;
+	border-radius: 15%;
+	margin-right: 2%;
+	margin-left: 1%;
+}
+
+.NewsText {
+	color:#7f6f47;
+	margin-right: 4%;
+	font-family: arial;
+	font-size:1.2vw;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	
+}
 
 }
