@@ -54,6 +54,17 @@ height:100%;
 	
 }
 
+.Server_IP {
+	color: white;
+	position: absolute;
+	margin-left: 79%;
+	z-index: 1;
+	margin-top:0%;
+	font-size: 2vw;
+	font-family:arial;
+	text-align:right;
+}
+
 /*Central nav bar*/
 
 .main_navigation{
@@ -309,27 +320,17 @@ hr.stylebars {
 	width: 100.5%;
 }
 
-.ServerStatusBox {
-	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-	background-color: #131313;
-	background-size: 20px 20px;
-	
-}
-.ServerStatus {
-	margin-left: 40%;
-	margin-right: 40%;
-	width:20%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
+
 
 .news {
+	
 	background-color: #cbd8cb;
 	display: inline-block;
 	width: 100%;
 	border: solid 1px;
 	border-color: green;
 	margin-top: -0.5%;
+	
 }
 
 
@@ -380,13 +381,32 @@ hr.stylebars {
 }
 
 .NewsText {
-	color:#7f6f47;
+	color:#706039;
 	margin-right: 4%;
 	font-family: arial;
 	font-size:1.2vw;
 	margin-left: 2%;
 	margin-bottom: 5%;
+}
+
+.ServerStatusBox {
+	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
 	
+}
+.ServerStatus {
+	margin-left: 40%;
+	margin-right: 40%;
+	width:20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.AboutPhoto {
+	width: 40%;
+	margin-left:30%;
+	margin-right:30%;
 }
 
 }
